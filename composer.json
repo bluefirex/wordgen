@@ -1,0 +1,13 @@
+{
+	"name": "bluefirex/wordgen",
+	"version": "1.0.0",
+	"autoload": {
+		"psr-4": {
+			"bluefirex\\WordGen\\": "src"
+		}
+	},
+	"require": {
+		"ext-gmp": "*",
+		"php": ">7.0.0"
+	}
+}
