@@ -8,7 +8,7 @@ This is a very primitive library for generating english words and basic sentence
 
 ## Usage
 
-```
+```php
 <?php
     require __DIR__ . '/vendor/autoload.php';
 
