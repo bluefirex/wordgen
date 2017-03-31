@@ -44,6 +44,8 @@
 		/**
 		 * Get a random noun with an adjective preceeding it
 		 *
+		 * @param string $delimiter Delimiter between the words
+		 *
 		 * @return string
 		 */
 		public static function getRandomNounWithAdjective(string $delimiter = ' '): string {

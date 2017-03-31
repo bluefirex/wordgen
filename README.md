@@ -15,7 +15,7 @@ This is a very primitive library for generating english words and basic sentence
     use bluefirex\WordGen\Generator;
 
     $randomWord = Generator::getRandomWord();
-    $randomNounWithAdjective = Generator::getRandomNounWithAdjective();
+    $randomNounWithAdjective = Generator::getRandomNounWithAdjective($delimiter = ' ');
     $randomAdjective = Generator::getRandomAdjective();
     $randomNoun = Generator::getRandomNoun();
     $randomVerb = Generator::getRandomVerb();
