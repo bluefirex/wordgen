@@ -28,7 +28,7 @@
 		 * @return string
 		 */
 		public static function getRandomNounWithAdjective(string $delimiter = ' ') {
-			return DictionaryGenerator::getRandomNounWithAdjective();
+			return DictionaryGenerator::getRandomNounWithAdjective($delimiter);
 		}
 
 		/**
